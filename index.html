@@ -381,13 +381,13 @@
   <div class="signup-wrap">
     <div class="signup-info">
       <p class="eyebrow">Vagas limitadas</p>
-      <h2>Garanta seu lugar no workshop</h2>
+      <h2>Reserve seu lugar no workshop</h2>
       <ul class="info-list">
         <li><span class="dot"></span>16/09, às 16h — Rei dos Cachos, Linhares</li>
-        <li><span class="dot"></span>Taxa de R$ 25, revertida em crédito no salão</li>
+        <li><span class="dot"></span>Taxa de R$ 25 via Pix (revertida em crédito), confirma sua vaga</li>
         <li><span class="dot"></span>Apostila, sorteio de brindes e presente pra dupla</li>
       </ul>
-      <p class="whats-note">Preenche seus dados aqui do lado que a gente te chama no <span style="color:var(--gold-light);">WhatsApp</span> pra confirmar sua vaga.</p>
+      <p class="whats-note">Preenche seus dados aqui do lado. Sua vaga fica pré-reservada, e a gente te chama no <span style="color:var(--gold-light);">WhatsApp</span> com a chave Pix pra você confirmar de vez.</p>
     </div>
     <form class="signup-form" id="signupForm">
       <div class="field">
@@ -398,7 +398,7 @@
         <label for="whats">WhatsApp</label>
         <input type="tel" id="whats" name="whats" placeholder="(27) 9 0000-0000" required>
       </div>
-      <button type="submit" class="btn btn-primary submit-btn">Confirmar inscrição</button>
+      <button type="submit" class="btn btn-primary submit-btn">Pré-reservar minha vaga</button>
       <p class="form-msg" id="formMsg"></p>
       <p class="privacy-note">Seus dados são usados apenas para confirmar sua vaga no evento.</p>
     </form>
@@ -445,7 +445,7 @@
       }catch(err){ /* falha silenciosa — lead já está salvo localmente */ }
     }
 
-    msg.textContent = "Inscrição recebida! Nossa equipe confirma sua vaga pelo WhatsApp em breve. ✨";
+    msg.textContent = "Vaga pré-reservada! Te mandamos a chave Pix no WhatsApp — assim que pagar, sua vaga está confirmada. ✨";
     form.reset();
   });
 </script>
